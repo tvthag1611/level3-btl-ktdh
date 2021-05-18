@@ -1,0 +1,53 @@
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.menu {
+  background-color: #001f3f;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsla(210, 100%, 75%, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.view-scence {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.btn-music {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: hsla(210, 100%, 75%, 1);
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+}
+
+.music {
+  width: 15px;
+}
